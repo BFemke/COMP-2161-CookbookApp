@@ -1,0 +1,143 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TheFamilyCookbook" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/dark_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorSecondary">@color/light_primary</item>
+        <item name="colorSecondaryVariant">@color/light_primary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/shadow</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="background">@color/light_primary</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="android:windowAnimationStyle">@style/YourAnimation.Activity</item>
+    </style>
+
+    <style name="Theme_Diner" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/diner_primary</item>
+        <item name="colorPrimaryVariant">@color/diner_dark_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorAccent">@color/diner_accent</item>
+        <item name="colorSecondary">@color/diner_secondary</item>
+        <item name="colorSecondaryVariant">@color/diner_secondary_variant</item>
+        <item name="colorOnSecondary">@color/diner_secondary_text</item>
+        <item name="colorSecondaryContainer">@color/highlight</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="background">@drawable/diner_background</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="android:windowAnimationStyle">@style/YourAnimation.Activity</item>
+    </style>
+
+    <style name="Theme_Retro" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/retro_primary</item>
+        <item name="colorPrimaryVariant">@color/retro_dark_primary</item>
+        <item name="colorOnPrimary">@color/retro_primary_text</item>
+        <!-- Secondary brand color. -->
+        <item name="colorAccent">@color/retro_accent</item>
+        <item name="colorSecondary">@color/retro_secondary_text</item>
+        <item name="colorSecondaryVariant">@color/retro_secondary_text</item>
+        <item name="colorOnSecondary">@color/retro_secondary_text</item>
+        <item name="colorSecondaryContainer">@color/highlight</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="background">@drawable/retro_background</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="android:windowAnimationStyle">@style/YourAnimation.Activity</item>
+    </style>
+
+    <style name="Theme_Kitchen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/kitchen_primary</item>
+        <item name="colorPrimaryVariant">@color/kitchen_dark_primary</item>
+        <item name="colorOnPrimary">@color/kitchen_primary_text</item>
+        <!-- Secondary brand color. -->
+        <item name="colorAccent">@color/kitchen_accent</item>
+        <item name="colorSecondary">@color/kitchen_secondary_text</item>
+        <item name="colorSecondaryVariant">@color/kitchen_secondary</item>
+        <item name="colorOnSecondary">@color/kitchen_secondary_text</item>
+        <item name="colorSecondaryContainer">@color/shadow</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="background">@drawable/kitchen_background</item>
+        <item name="colorOnBackground">@color/kitchen_secondary</item>
+        <item name="android:windowAnimationStyle">@style/YourAnimation.Activity</item>
+    </style>
+
+
+<!--Styles -->
+    <!--Animation Styles -->
+    <style name="YourAnimation.Activity" parent="@android:style/Animation.Activity">
+        <item name="android:activityCloseEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+    <!--Text background Styles -->
+    <style name="BackgroundTextBox">
+        <item name="android:background">@drawable/border_style</item>
+    </style>
+
+    <!--Alert dialog Styles -->
+    <style name="alertDialogStyle" parent="ThemeOverlay.MaterialComponents.Dialog.Alert" >
+        <item name="textColorAlertDialogListItem">@color/grey</item>
+    </style>
+
+    <!--Appbar heading text Styles -->
+    <style name="heading" >
+        <item name="android:background">?attr/colorAccent</item>
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+    </style>
+
+    <!--regular button Styles -->
+    <style name="RegularButton">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <!--Toolbar Styles -->
+    <style name="toolbar" parent="Widget.Design.AppBarLayout" >
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!--Category Card Styles -->
+    <style name="cat_card_name">
+        <item name="android:textSize">34sp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:elegantTextHeight">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:background">@null</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">10</item>
+    </style>
+
+    <!--Background Styles -->
+    <style name="backgroundColour" parent="Widget.AppCompat.ListView">
+        <item name="android:background">@color/light_primary</item>
+    </style>
+
+    <!-- SplashScreen -->
+    <style name="SplashScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splashscreen</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+
+</resources>

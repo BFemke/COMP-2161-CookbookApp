@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#737373</color>
+    <color name="light_grey">#dadbda</color>
+    <color name="shadow">#80000000</color>
+    <color name="highlight">#8fFFFFFF</color>
+    <color name="beige">#e7e0d3</color>
+
+    //Default Theme Colours
+    <color name="primary">#9E9E9E</color>
+    <color name="light_primary">#F5F5F5</color>
+    <color name="dark_primary">#616161</color>
+    <color name="accent">#FF9800</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+
+    //Diner Theme Colours
+    <color name="diner_primary">#f991d9</color>
+    <color name="diner_light_primary">#fbb5e6</color>
+    <color name="diner_dark_primary">#f657c5</color>
+    <color name="diner_accent">#f4e99b</color>
+    <color name="diner_secondary_variant">#fcfae6</color>
+    <color name="diner_secondary">#a9aaa8</color>
+    <color name="diner_secondary_text">#6c6c6c</color>
+
+    //Retro Theme Colours
+    <color name="retro_primary">#bb200f</color>
+    <color name="retro_dark_primary">#86030e</color>
+    <color name="retro_light_secondary">#f26d5e</color>
+    <color name="retro_accent">#0f0100</color>
+    <color name="retro_primary_text">#f0f0ec</color>
+    <color name="retro_secondary_text">#d8d8d8</color>
+
+    //kitchen Theme Colours
+    <color name="kitchen_accent">#fffb7d</color>
+    <color name="kitchen_dark_primary">#677d3c</color>
+    <color name="kitchen_primary">#8eac53</color>
+    <color name="kitchen_secondary">#ddbf97</color>
+    <color name="kitchen_light_primary">#c3d3a3</color>
+    <color name="kitchen_primary_text">#68592f</color>
+    <color name="kitchen_secondary_text">#c0893f</color>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="?attr/colorAccent"/>
+        </shape>
+    </item>
+    <item >
+        <shape android:shape="ring"
+            android:innerRadiusRatio="2.2"
+            android:thicknessRatio="20"
+            android:useLevel="false">
+            <size android:width="76dip" android:height="76dip" />
+            <solid android:color="?attr/colorSecondaryContainer" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="ring"
+            android:innerRadiusRatio="2.27"
+            android:thicknessRatio="20"
+            android:useLevel="false">
+            <size android:width="76dip" android:height="76dip" />
+            <solid android:color="?attr/colorOnSecondary"/>
+        </shape>
+    </item>
+    <item android:width="50dip" android:gravity="center" >
+        <rotate
+            android:fromDegrees="90"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="-90">
+            <shape android:shape="line">
+                <stroke android:width="4dp"
+                    android:color="?attr/colorSecondaryContainer" />
+            </shape>
+        </rotate>
+    </item>
+    <item android:width="50dip" android:gravity="center">
+        <shape android:shape="line">
+            <stroke android:width="4dp" android:color="?attr/colorSecondaryContainer" />
+        </shape>
+    </item>
+    <item android:width="50dip" android:gravity="center">
+        <shape android:shape="line">
+            <stroke android:width="3dp" android:color="?attr/colorOnSecondary" />
+        </shape>
+    </item>
+    <item android:width="50dip" android:gravity="center" >
+        <rotate
+            android:fromDegrees="90"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="-90">
+            <shape android:shape="line">
+                <stroke android:width="3dp"
+                    android:color="?attr/colorOnSecondary" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>
+

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "895232338352",
+    "project_id": "the-family-cookbook-14c97",
+    "storage_bucket": "the-family-cookbook-14c97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895232338352:android:cd37cf8688025f91fb4e75",
+        "android_client_info": {
+          "package_name": "emke.comp2161.thefamilycookbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895232338352-c1pqb5do0kakbsfsotnks44nde6i0t23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv0f1Iumg7JeXeoAVlFIkJzdBTZJoZ-Os"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895232338352-c1pqb5do0kakbsfsotnks44nde6i0t23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

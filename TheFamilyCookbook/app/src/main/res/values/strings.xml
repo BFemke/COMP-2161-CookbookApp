@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">The Family Cookbook</string>
+
+    //Main Activity strings
+    <string name="entree">Entr&#0233;es</string>
+
+    //Add category dialog strings
+    <string name="cat_name_prompt">Category Name</string>
+
+    //default category names
+    <string-array name="category_names">
+        <item>Appetizers</item>
+        <item>Entr&#0233;es</item>
+        <item>Soups</item>
+        <item>Salads</item>
+        <item>Desserts</item>
+        <item>Snacks</item>
+        <item>Preserves</item>
+    </string-array>
+
+    //Add new recipe activity strings
+    <string name="addTitle">Add New Recipe</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="directions">Directions</string>
+    <string name="tags">Tags</string>
+    <string name="name">Recipe Name *</string>
+    <string name="spinnerPrompt">Select a category..</string>
+    <string name="cancelBtn">Cancel</string>
+    <string name="saveBtn">Save</string>
+    <string name="nameHint">Enter recipe name</string>
+    <string name="tagHint">Enter tag</string>
+    <string name="ingredientHint">Enter ingredient</string>
+    <string name="directionHint">Enter direction</string>
+    <string name="quantityHint">Enter quantity</string>
+    <string name="category">Category Name *</string>
+
+    //Recipe activity strings
+    <string name="deleteBtn">Delete</string>
+    <string name="editBtn">Edit</string>
+
+    //Settings Activity Strings
+    <string name="settings_title">Settings</string>
+    <string name="settings_heading1">Themes</string>
+    <string name="theme_diner">80\'s Diner</string>
+    <string name="theme_retro">Retro</string>
+    <string name="theme_kitchen">90\'s Kitchen</string>
+    <string name="theme_default">Default</string>
+</resources>

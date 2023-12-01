@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_search"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/nav_newRecipe"
+        android:title="Add New Recipe" />
+
+    <item
+        android:id="@+id/nav_grocery"
+        android:title="Grocery List" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings" />
+</menu>
